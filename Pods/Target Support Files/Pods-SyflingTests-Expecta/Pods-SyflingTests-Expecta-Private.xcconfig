@@ -1,0 +1,7 @@
+#include "Pods-SyflingTests-Expecta.xcconfig"
+FRAMEWORK_SEARCH_PATHS = ${PODS_SYFLINGTESTS_EXPECTA_FRAMEWORK_SEARCH_PATHS}
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/Expecta" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/OBMenuBarWindow" "${PODS_ROOT}/Headers/Public/Prompt" "${PODS_ROOT}/Headers/Public/RPInstantAlpha" "${PODS_ROOT}/Headers/Public/Specta" "${PODS_ROOT}/Headers/Public/VVSceneLinearImageRep"
+OTHER_LDFLAGS = ${PODS_SYFLINGTESTS_EXPECTA_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

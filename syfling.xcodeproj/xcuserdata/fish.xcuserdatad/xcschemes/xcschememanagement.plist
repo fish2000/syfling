@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SyflingTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SyphonMenu.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>syfling.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +23,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>CF6B56861ADB20FC0043BE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF6B56941ADB2C430043BE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF6B56A11ADB2FAD0043BE01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF6B56B31ADB2FAD0043BE01</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,25 @@
+PODS:
+  - Expecta (0.3.2)
+  - OBMenuBarWindow (1.1.0)
+  - Prompt (1.0)
+  - RPInstantAlpha (1.0.0)
+  - Specta (0.2.1)
+  - VVSceneLinearImageRep (0.1.2)
+
+DEPENDENCIES:
+  - Expecta (~> 0.3.1)
+  - OBMenuBarWindow
+  - Prompt (~> 1.0)
+  - RPInstantAlpha
+  - Specta (~> 0.2.1)
+  - VVSceneLinearImageRep
+
+SPEC CHECKSUMS:
+  Expecta: 8c507baf13211207b1e9d0a741480600e6b4ed15
+  OBMenuBarWindow: 2be54c06ba113abffb5d59327b0a57f4c3e3146b
+  Prompt: ac869daf089b3cfe9c8dac4f0dd0a165198685db
+  RPInstantAlpha: f485356b446b3e54b12e30b427abe13c115bcf4e
+  Specta: 15a276a6343867b426d5ed135d5aa4d04123a573
+  VVSceneLinearImageRep: cea25a976fc320a009b70b116e3769b27dc45597
+
+COCOAPODS: 0.36.3

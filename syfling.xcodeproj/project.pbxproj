@@ -3,12 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CF6B568B1ADB20FC0043BE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B568A1ADB20FC0043BE01 /* main.m */; };
+		CF6B56A81ADB2FAD0043BE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B56A71ADB2FAD0043BE01 /* AppDelegate.m */; };
+		CF6B56AA1ADB2FAD0043BE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B56A91ADB2FAD0043BE01 /* main.m */; };
+		CF6B56AC1ADB2FAD0043BE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6B56AB1ADB2FAD0043BE01 /* Images.xcassets */; };
+		CF6B56AF1ADB2FAD0043BE01 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */; };
+		CF6B56BB1ADB2FAE0043BE01 /* SyphonMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B56BA1ADB2FAE0043BE01 /* SyphonMenuTests.m */; };
+		CF6B56C31ADB322E0043BE01 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B56C21ADB322E0043BE01 /* Syphon.framework */; };
+		CF6B56C41ADB322E0043BE01 /* Syphon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B56C21ADB322E0043BE01 /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CF6B56C61ADB32CE0043BE01 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B56C21ADB322E0043BE01 /* Syphon.framework */; };
+		FB93005D26342599FC8AB1D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBAA4E9E21704A18D1CBD20 /* libPods.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF6B56B51ADB2FAD0043BE01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF6B567F1ADB20FC0043BE01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF6B56A11ADB2FAD0043BE01;
+			remoteInfo = SyphonMenu;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CF6B56851ADB20FC0043BE01 /* CopyFiles */ = {
@@ -20,15 +39,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		CF6B56C51ADB322E0043BE01 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CF6B56C41ADB322E0043BE01 /* Syphon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EBAA4E9E21704A18D1CBD20 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3538470A6F6F854F267C41 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1F9D4066CD2B3E5A9D503D /* Pods-SyflingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyflingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SyflingTests/Pods-SyflingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7F000F6473A7F4EA5C76F755 /* libPods-SyflingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyflingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA6C57749AE0D8BA8FE0372 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CF6B56871ADB20FC0043BE01 /* syfling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = syfling; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6B568A1ADB20FC0043BE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6B568A1ADB20FC0043BE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../syfling-cli/main.m"; sourceTree = "<group>"; };
+		CF6B56A21ADB2FAD0043BE01 /* SyphonMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyphonMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6B56A51ADB2FAD0043BE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6B56A61ADB2FAD0043BE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF6B56A71ADB2FAD0043BE01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF6B56A91ADB2FAD0043BE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF6B56AB1ADB2FAD0043BE01 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CF6B56AE1ADB2FAD0043BE01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF6B56B41ADB2FAD0043BE01 /* SyphonMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SyphonMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6B56B91ADB2FAE0043BE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6B56BA1ADB2FAE0043BE01 /* SyphonMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyphonMenuTests.m; sourceTree = "<group>"; };
+		CF6B56C21ADB322E0043BE01 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Syphon.framework; path = /usr/local/Frameworks/Syphon.framework; sourceTree = "<absolute>"; };
+		DF42A81F5060D7B94AA322D6 /* Pods-SyflingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyflingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyflingTests/Pods-SyflingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CF6B56841ADB20FC0043BE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6B56C61ADB32CE0043BE01 /* Syphon.framework in Frameworks */,
+				FB93005D26342599FC8AB1D8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6B569F1ADB2FAD0043BE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6B56C31ADB322E0043BE01 /* Syphon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6B56B11ADB2FAD0043BE01 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,11 +102,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B546F9E5BA1B5180F7422F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3538470A6F6F854F267C41 /* Pods.debug.xcconfig */,
+				BDA6C57749AE0D8BA8FE0372 /* Pods.release.xcconfig */,
+				2D1F9D4066CD2B3E5A9D503D /* Pods-SyflingTests.debug.xcconfig */,
+				DF42A81F5060D7B94AA322D6 /* Pods-SyflingTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B75AF0F50543634997C5F657 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B56C21ADB322E0043BE01 /* Syphon.framework */,
+				0EBAA4E9E21704A18D1CBD20 /* libPods.a */,
+				7F000F6473A7F4EA5C76F755 /* libPods-SyflingTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CF6B567E1ADB20FC0043BE01 = {
 			isa = PBXGroup;
 			children = (
-				CF6B56891ADB20FC0043BE01 /* syfling */,
+				CF6B56891ADB20FC0043BE01 /* syfling-cli */,
+				CF6B56A31ADB2FAD0043BE01 /* SyphonMenu */,
+				CF6B56B71ADB2FAE0043BE01 /* SyphonMenuTests */,
 				CF6B56881ADB20FC0043BE01 /* Products */,
+				8B546F9E5BA1B5180F7422F4 /* Pods */,
+				B75AF0F50543634997C5F657 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -50,16 +139,57 @@
 			isa = PBXGroup;
 			children = (
 				CF6B56871ADB20FC0043BE01 /* syfling */,
+				CF6B56A21ADB2FAD0043BE01 /* SyphonMenu.app */,
+				CF6B56B41ADB2FAD0043BE01 /* SyphonMenuTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CF6B56891ADB20FC0043BE01 /* syfling */ = {
+		CF6B56891ADB20FC0043BE01 /* syfling-cli */ = {
 			isa = PBXGroup;
 			children = (
 				CF6B568A1ADB20FC0043BE01 /* main.m */,
 			);
+			name = "syfling-cli";
 			path = syfling;
+			sourceTree = "<group>";
+		};
+		CF6B56A31ADB2FAD0043BE01 /* SyphonMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B56A61ADB2FAD0043BE01 /* AppDelegate.h */,
+				CF6B56A71ADB2FAD0043BE01 /* AppDelegate.m */,
+				CF6B56AB1ADB2FAD0043BE01 /* Images.xcassets */,
+				CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */,
+				CF6B56A41ADB2FAD0043BE01 /* Supporting Files */,
+			);
+			path = SyphonMenu;
+			sourceTree = "<group>";
+		};
+		CF6B56A41ADB2FAD0043BE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B56A51ADB2FAD0043BE01 /* Info.plist */,
+				CF6B56A91ADB2FAD0043BE01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF6B56B71ADB2FAE0043BE01 /* SyphonMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B56BA1ADB2FAE0043BE01 /* SyphonMenuTests.m */,
+				CF6B56B81ADB2FAE0043BE01 /* Supporting Files */,
+			);
+			path = SyphonMenuTests;
+			sourceTree = "<group>";
+		};
+		CF6B56B81ADB2FAE0043BE01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B56B91ADB2FAE0043BE01 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -69,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF6B568E1ADB20FC0043BE01 /* Build configuration list for PBXNativeTarget "syfling" */;
 			buildPhases = (
+				E5EC2A348DC5396E7C07F558 /* Check Pods Manifest.lock */,
 				CF6B56831ADB20FC0043BE01 /* Sources */,
 				CF6B56841ADB20FC0043BE01 /* Frameworks */,
 				CF6B56851ADB20FC0043BE01 /* CopyFiles */,
+				50183D7C3C80DCA98BCE1206 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -81,6 +213,42 @@
 			productName = syfling;
 			productReference = CF6B56871ADB20FC0043BE01 /* syfling */;
 			productType = "com.apple.product-type.tool";
+		};
+		CF6B56A11ADB2FAD0043BE01 /* SyphonMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6B56C01ADB2FAE0043BE01 /* Build configuration list for PBXNativeTarget "SyphonMenu" */;
+			buildPhases = (
+				CF6B569E1ADB2FAD0043BE01 /* Sources */,
+				CF6B569F1ADB2FAD0043BE01 /* Frameworks */,
+				CF6B56A01ADB2FAD0043BE01 /* Resources */,
+				CF6B56C51ADB322E0043BE01 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyphonMenu;
+			productName = SyphonMenu;
+			productReference = CF6B56A21ADB2FAD0043BE01 /* SyphonMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF6B56B31ADB2FAD0043BE01 /* SyphonMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF6B56C11ADB2FAE0043BE01 /* Build configuration list for PBXNativeTarget "SyphonMenuTests" */;
+			buildPhases = (
+				CF6B56B01ADB2FAD0043BE01 /* Sources */,
+				CF6B56B11ADB2FAD0043BE01 /* Frameworks */,
+				CF6B56B21ADB2FAD0043BE01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF6B56B61ADB2FAD0043BE01 /* PBXTargetDependency */,
+			);
+			name = SyphonMenuTests;
+			productName = SyphonMenuTests;
+			productReference = CF6B56B41ADB2FAD0043BE01 /* SyphonMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -94,14 +262,22 @@
 					CF6B56861ADB20FC0043BE01 = {
 						CreatedOnToolsVersion = 6.3;
 					};
+					CF6B56A11ADB2FAD0043BE01 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CF6B56B31ADB2FAD0043BE01 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CF6B56A11ADB2FAD0043BE01;
+					};
 				};
 			};
-			buildConfigurationList = CF6B56821ADB20FC0043BE01 /* Build configuration list for PBXProject "syfling" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = CF6B56821ADB20FC0043BE01 /* Build configuration list for PBXProject "Syfling" */;
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF6B567E1ADB20FC0043BE01;
 			productRefGroup = CF6B56881ADB20FC0043BE01 /* Products */;
@@ -109,9 +285,63 @@
 			projectRoot = "";
 			targets = (
 				CF6B56861ADB20FC0043BE01 /* syfling */,
+				CF6B56A11ADB2FAD0043BE01 /* SyphonMenu */,
+				CF6B56B31ADB2FAD0043BE01 /* SyphonMenuTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF6B56A01ADB2FAD0043BE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6B56AC1ADB2FAD0043BE01 /* Images.xcassets in Resources */,
+				CF6B56AF1ADB2FAD0043BE01 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6B56B21ADB2FAD0043BE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50183D7C3C80DCA98BCE1206 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5EC2A348DC5396E7C07F558 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CF6B56831ADB20FC0043BE01 /* Sources */ = {
@@ -122,13 +352,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CF6B569E1ADB2FAD0043BE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6B56AA1ADB2FAD0043BE01 /* main.m in Sources */,
+				CF6B56A81ADB2FAD0043BE01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF6B56B01ADB2FAD0043BE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF6B56BB1ADB2FAE0043BE01 /* SyphonMenuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF6B56B61ADB2FAD0043BE01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF6B56A11ADB2FAD0043BE01 /* SyphonMenu */;
+			targetProxy = CF6B56B51ADB2FAD0043BE01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6B56AE1ADB2FAD0043BE01 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CF6B568C1ADB20FC0043BE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -145,6 +412,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -164,13 +432,15 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		CF6B568D1ADB20FC0043BE01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -188,6 +458,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/local/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -198,28 +469,130 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
 		CF6B568F1ADB20FC0043BE01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3538470A6F6F854F267C41 /* Pods.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
 		CF6B56901ADB20FC0043BE01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA6C57749AE0D8BA8FE0372 /* Pods.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		CF6B56BC1ADB2FAE0043BE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyphonMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		CF6B56BD1ADB2FAE0043BE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Frameworks,
+				);
+				INFOPLIST_FILE = SyphonMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		CF6B56BE1ADB2FAE0043BE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyphonMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyphonMenu.app/Contents/MacOS/SyphonMenu";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		CF6B56BF1ADB2FAE0043BE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SyphonMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SyphonMenu.app/Contents/MacOS/SyphonMenu";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CF6B56821ADB20FC0043BE01 /* Build configuration list for PBXProject "syfling" */ = {
+		CF6B56821ADB20FC0043BE01 /* Build configuration list for PBXProject "Syfling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CF6B568C1ADB20FC0043BE01 /* Debug */,
@@ -233,6 +606,23 @@
 			buildConfigurations = (
 				CF6B568F1ADB20FC0043BE01 /* Debug */,
 				CF6B56901ADB20FC0043BE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF6B56C01ADB2FAE0043BE01 /* Build configuration list for PBXNativeTarget "SyphonMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6B56BC1ADB2FAE0043BE01 /* Debug */,
+				CF6B56BD1ADB2FAE0043BE01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF6B56C11ADB2FAE0043BE01 /* Build configuration list for PBXNativeTarget "SyphonMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF6B56BE1ADB2FAE0043BE01 /* Debug */,
+				CF6B56BF1ADB2FAE0043BE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

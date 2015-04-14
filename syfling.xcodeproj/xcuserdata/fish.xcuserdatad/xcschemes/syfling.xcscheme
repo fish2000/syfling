@@ -17,7 +17,7 @@
                BlueprintIdentifier = "CF6B56861ADB20FC0043BE01"
                BuildableName = "syfling"
                BlueprintName = "syfling"
-               ReferencedContainer = "container:syfling.xcodeproj">
+               ReferencedContainer = "container:Syfling.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "CF6B56861ADB20FC0043BE01"
             BuildableName = "syfling"
             BlueprintName = "syfling"
-            ReferencedContainer = "container:syfling.xcodeproj">
+            ReferencedContainer = "container:Syfling.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "CF6B56861ADB20FC0043BE01"
             BuildableName = "syfling"
             BlueprintName = "syfling"
-            ReferencedContainer = "container:syfling.xcodeproj">
+            ReferencedContainer = "container:Syfling.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,7 +74,7 @@
             BlueprintIdentifier = "CF6B56861ADB20FC0043BE01"
             BuildableName = "syfling"
             BlueprintName = "syfling"
-            ReferencedContainer = "container:syfling.xcodeproj">
+            ReferencedContainer = "container:Syfling.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
