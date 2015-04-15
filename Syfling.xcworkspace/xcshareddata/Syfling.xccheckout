@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3773E64F-A291-448F-916C-A8F5C86C1CD6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Syfling</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1DC1F80F650AF6D65D8560E1C4E7DF74F4EC9F23</key>
+		<string>https://github.com/fish2000/syfling.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Syfling.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1DC1F80F650AF6D65D8560E1C4E7DF74F4EC9F23</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fish2000/syfling.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1DC1F80F650AF6D65D8560E1C4E7DF74F4EC9F23</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1DC1F80F650AF6D65D8560E1C4E7DF74F4EC9F23</string>
+			<key>IDESourceControlWCCName</key>
+			<string>syfling</string>
+		</dict>
+	</array>
+</dict>
+</plist>

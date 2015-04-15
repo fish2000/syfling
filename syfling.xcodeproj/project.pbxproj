@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF6B568B1ADB20FC0043BE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B568A1ADB20FC0043BE01 /* main.m */; };
+		CF6B568B1ADB20FC0043BE01 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CF6B568A1ADB20FC0043BE01 /* main.mm */; };
 		CF6B56A81ADB2FAD0043BE01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B56A71ADB2FAD0043BE01 /* AppDelegate.m */; };
 		CF6B56AA1ADB2FAD0043BE01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B56A91ADB2FAD0043BE01 /* main.m */; };
 		CF6B56AC1ADB2FAD0043BE01 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF6B56AB1ADB2FAD0043BE01 /* Images.xcassets */; };
-		CF6B56AF1ADB2FAD0043BE01 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */; };
 		CF6B56BB1ADB2FAE0043BE01 /* SyphonMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6B56BA1ADB2FAE0043BE01 /* SyphonMenuTests.m */; };
 		CF6B56C31ADB322E0043BE01 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B56C21ADB322E0043BE01 /* Syphon.framework */; };
 		CF6B56C41ADB322E0043BE01 /* Syphon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B56C21ADB322E0043BE01 /* Syphon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF6B56C61ADB32CE0043BE01 /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF6B56C21ADB322E0043BE01 /* Syphon.framework */; };
+		CFAE472E1ADE1C540082E95D /* CF++.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAE472D1ADE1C540082E95D /* CF++.framework */; };
+		CFAE472F1ADE3BBC0082E95D /* syfling in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF6B56871ADB20FC0043BE01 /* syfling */; };
+		CFAE473B1ADE52390082E95D /* SyphonMenu-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFAE473A1ADE52390082E95D /* SyphonMenu-Info.plist */; };
+		CFAE473C1ADE57DD0082E95D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */; };
+		CFAE473E1ADE59D70082E95D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBAA4E9E21704A18D1CBD20 /* libPods.a */; };
+		CFAE47401ADE5B170082E95D /* libimread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CFAE473F1ADE5B170082E95D /* libimread.dylib */; };
+		CFAE47411ADE5BBA0082E95D /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CFAE47381ADE52250082E95D /* en.lproj */; };
+		CFAE47421ADE5BBF0082E95D /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = CFAE47361ADE52190082E95D /* Resources */; };
+		CFAE47431ADE5BC20082E95D /* PCH in Resources */ = {isa = PBXBuildFile; fileRef = CFAE47341ADE51FD0082E95D /* PCH */; };
+		CFAE47441ADE5BC50082E95D /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = CFAE47321ADE51ED0082E95D /* Classes */; };
 		FB93005D26342599FC8AB1D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EBAA4E9E21704A18D1CBD20 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -32,12 +41,13 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		CF6B56851ADB20FC0043BE01 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			buildActionMask = 12;
+			dstPath = "/Users/fish/Dropbox/syfling/build/syfling-cli";
 			dstSubfolderSpec = 0;
 			files = (
+				CFAE472F1ADE3BBC0082E95D /* syfling in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CF6B56C51ADB322E0043BE01 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,9 +69,9 @@
 		7F000F6473A7F4EA5C76F755 /* libPods-SyflingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyflingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDA6C57749AE0D8BA8FE0372 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CF6B56871ADB20FC0043BE01 /* syfling */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = syfling; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6B568A1ADB20FC0043BE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "../syfling-cli/main.m"; sourceTree = "<group>"; };
+		CF6B568A1ADB20FC0043BE01 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		CF6B56A21ADB2FAD0043BE01 /* SyphonMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyphonMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF6B56A51ADB2FAD0043BE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6B56A51ADB2FAD0043BE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Plist/Info.plist; sourceTree = "<group>"; };
 		CF6B56A61ADB2FAD0043BE01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF6B56A71ADB2FAD0043BE01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF6B56A91ADB2FAD0043BE01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,6 +81,15 @@
 		CF6B56B91ADB2FAE0043BE01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF6B56BA1ADB2FAE0043BE01 /* SyphonMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SyphonMenuTests.m; sourceTree = "<group>"; };
 		CF6B56C21ADB322E0043BE01 /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Syphon.framework; path = /usr/local/Frameworks/Syphon.framework; sourceTree = "<absolute>"; };
+		CF80A7351ADDD610001F92CD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = "syfling-cli/PrefixHeader.pch"; sourceTree = SOURCE_ROOT; };
+		CF80A7371ADDDDB1001F92CD /* filesystem */ = {isa = PBXFileReference; lastKnownFileType = folder; name = filesystem; path = "syfling-cli/filesystem"; sourceTree = SOURCE_ROOT; };
+		CFAE472D1ADE1C540082E95D /* CF++.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CF++.framework"; path = "../../../../usr/local/Frameworks/CF++.framework"; sourceTree = "<group>"; };
+		CFAE47321ADE51ED0082E95D /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
+		CFAE47341ADE51FD0082E95D /* PCH */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PCH; sourceTree = "<group>"; };
+		CFAE47361ADE52190082E95D /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
+		CFAE47381ADE52250082E95D /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		CFAE473A1ADE52390082E95D /* SyphonMenu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SyphonMenu-Info.plist"; path = "Plist/SyphonMenu-Info.plist"; sourceTree = "<group>"; };
+		CFAE473F1ADE5B170082E95D /* libimread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libimread.dylib; path = ../../../../usr/local/Cellar/libimread/0.1.0/lib/libimread.dylib; sourceTree = "<group>"; };
 		DF42A81F5060D7B94AA322D6 /* Pods-SyflingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyflingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SyflingTests/Pods-SyflingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +100,7 @@
 			files = (
 				CF6B56C61ADB32CE0043BE01 /* Syphon.framework in Frameworks */,
 				FB93005D26342599FC8AB1D8 /* libPods.a in Frameworks */,
+				CFAE472E1ADE1C540082E95D /* CF++.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +108,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAE47401ADE5B170082E95D /* libimread.dylib in Frameworks */,
+				CFAE473E1ADE59D70082E95D /* libPods.a in Frameworks */,
 				CF6B56C31ADB322E0043BE01 /* Syphon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -116,6 +138,8 @@
 		B75AF0F50543634997C5F657 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CFAE473F1ADE5B170082E95D /* libimread.dylib */,
+				CFAE472D1ADE1C540082E95D /* CF++.framework */,
 				CF6B56C21ADB322E0043BE01 /* Syphon.framework */,
 				0EBAA4E9E21704A18D1CBD20 /* libPods.a */,
 				7F000F6473A7F4EA5C76F755 /* libPods-SyflingTests.a */,
@@ -148,31 +172,27 @@
 		CF6B56891ADB20FC0043BE01 /* syfling-cli */ = {
 			isa = PBXGroup;
 			children = (
-				CF6B568A1ADB20FC0043BE01 /* main.m */,
+				CF80A7371ADDDDB1001F92CD /* filesystem */,
+				CF6B568A1ADB20FC0043BE01 /* main.mm */,
+				CF80A7351ADDD610001F92CD /* PrefixHeader.pch */,
 			);
-			name = "syfling-cli";
-			path = syfling;
+			path = "syfling-cli";
 			sourceTree = "<group>";
 		};
 		CF6B56A31ADB2FAD0043BE01 /* SyphonMenu */ = {
 			isa = PBXGroup;
 			children = (
+				CFAE47381ADE52250082E95D /* en.lproj */,
+				CFAE47361ADE52190082E95D /* Resources */,
+				CFAE47341ADE51FD0082E95D /* PCH */,
+				CFAE47321ADE51ED0082E95D /* Classes */,
+				CFAE47311ADE51C20082E95D /* Plist */,
+				CFAE47301ADE51900082E95D /* Main Menu */,
 				CF6B56A61ADB2FAD0043BE01 /* AppDelegate.h */,
 				CF6B56A71ADB2FAD0043BE01 /* AppDelegate.m */,
-				CF6B56AB1ADB2FAD0043BE01 /* Images.xcassets */,
-				CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */,
-				CF6B56A41ADB2FAD0043BE01 /* Supporting Files */,
-			);
-			path = SyphonMenu;
-			sourceTree = "<group>";
-		};
-		CF6B56A41ADB2FAD0043BE01 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CF6B56A51ADB2FAD0043BE01 /* Info.plist */,
 				CF6B56A91ADB2FAD0043BE01 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = SyphonMenu;
 			sourceTree = "<group>";
 		};
 		CF6B56B71ADB2FAE0043BE01 /* SyphonMenuTests */ = {
@@ -190,6 +210,24 @@
 				CF6B56B91ADB2FAE0043BE01 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFAE47301ADE51900082E95D /* Main Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CF6B56AD1ADB2FAD0043BE01 /* MainMenu.xib */,
+				CF6B56AB1ADB2FAD0043BE01 /* Images.xcassets */,
+			);
+			name = "Main Menu";
+			sourceTree = "<group>";
+		};
+		CFAE47311ADE51C20082E95D /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				CFAE473A1ADE52390082E95D /* SyphonMenu-Info.plist */,
+				CF6B56A51ADB2FAD0043BE01 /* Info.plist */,
+			);
+			name = Plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +334,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFAE47431ADE5BC20082E95D /* PCH in Resources */,
+				CFAE47411ADE5BBA0082E95D /* en.lproj in Resources */,
+				CFAE47441ADE5BC50082E95D /* Classes in Resources */,
+				CFAE473B1ADE52390082E95D /* SyphonMenu-Info.plist in Resources */,
+				CFAE473C1ADE57DD0082E95D /* MainMenu.xib in Resources */,
 				CF6B56AC1ADB2FAD0043BE01 /* Images.xcassets in Resources */,
-				CF6B56AF1ADB2FAD0043BE01 /* MainMenu.xib in Resources */,
+				CFAE47421ADE5BBF0082E95D /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF6B568B1ADB20FC0043BE01 /* main.m in Sources */,
+				CF6B568B1ADB20FC0043BE01 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +460,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -461,6 +505,7 @@
 				FRAMEWORK_SEARCH_PATHS = /usr/local/Frameworks;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -480,10 +525,12 @@
 			baseConfigurationReference = 2C3538470A6F6F854F267C41 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Frameworks,
 				);
+				GCC_PREFIX_HEADER = "/Users/fish/Dropbox/syfling/syfling-cli/PrefixHeader.pch";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = x86_64;
@@ -495,10 +542,12 @@
 			baseConfigurationReference = BDA6C57749AE0D8BA8FE0372 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Frameworks,
 				);
+				GCC_PREFIX_HEADER = "/Users/fish/Dropbox/syfling/syfling-cli/PrefixHeader.pch";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = x86_64;
@@ -510,18 +559,31 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Frameworks,
 				);
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREFIX_HEADER = "/Users/fish/Dropbox/syfling/SyphonMenu/PCH/SyphonMenu-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = SyphonMenu/Info.plist;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fish/Dropbox/syfling/SyphonMenu/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = Classes;
+				INFOPLIST_FILE = SyphonMenu/Plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libimread/0.1.0/lib,
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = x86_64;
@@ -533,14 +595,27 @@
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "-";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/local/Frameworks,
 				);
-				INFOPLIST_FILE = SyphonMenu/Info.plist;
+				GCC_PREFIX_HEADER = "/Users/fish/Dropbox/syfling/SyphonMenu/PCH/SyphonMenu-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/fish/Dropbox/syfling/SyphonMenu/**",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = Classes;
+				INFOPLIST_FILE = SyphonMenu/Plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libimread/0.1.0/lib,
+				);
+				LLVM_LTO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = x86_64;
@@ -617,6 +692,7 @@
 				CF6B56BD1ADB2FAE0043BE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CF6B56C11ADB2FAE0043BE01 /* Build configuration list for PBXNativeTarget "SyphonMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -625,6 +701,7 @@
 				CF6B56BF1ADB2FAE0043BE01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,3 +3,4 @@
 *.dylib
 *.a
 *.pyc
+build/
